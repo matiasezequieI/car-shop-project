@@ -22,6 +22,14 @@ class MotorcycleODM {
   public async create(car: IMotorcycle): Promise<IMotorcycle> {
     return this.model.create({ ...car });
   }
+
+  public async getAll(): Promise<IMotorcycle[]> {
+    return this.model.find();
+  }
+
+  public async getById(id: string): Promise<IMotorcycle | null> {
+    return this.model.findById(id);
+  }
 }
 
 export default MotorcycleODM;
