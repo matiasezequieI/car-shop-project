@@ -31,7 +31,7 @@ Unsupported config option for services.node: 'platform'
 ```
 
 <details>
-  <summary><strong>🏽‍♀️ Foram encontradas 2 possíveis soluções para este problema:</strong></summary><br />
+  <summary><strong> Foram encontradas 2 possíveis soluções para este problema:</strong></summary><br />
 
 - Você pode adicionar manualmente a option platform: linux/amd64 no service do banco de dados no arquivo docker-compose.yml do projeto, mas essa é uma solução local e você deverá reproduzir isso para os outros projetos.
 
