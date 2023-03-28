@@ -3,7 +3,6 @@ import ErrorHandler from './Middlewares/ErrorHandler';
 import routes from './Routes/Routes';
 
 const app = express();
-console.log('a');
 
 app.use(express.json());
 app.use(routes);
